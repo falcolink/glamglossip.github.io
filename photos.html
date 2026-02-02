@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam & Gossip - La Galerie</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="page-wrapper">
+    <header>
+        <div class="cartoon-char"></div>
+        <div class="top-bar">
+            <div class="logo-area">
+                <div class="welcome-text">Bienvenue sur</div>
+                <h1 class="logo">GLAM & GOSSIP<span class="enc">.ENC</span></h1>
+            </div>
+        </div>
+        <div class="slogan">Galleries, Libraries, Archives & Museums — Digitally Divine, Paleographically Petty</div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="photos.html">Photos</a>
+            <a href="theses.html">Thèses Scandales</a>
+        </div>
+        <div class="search-box">
+            <form action="https://www.google.com/search" method="get">
+                <input type="hidden" name="tbs" value="cdr:1,cd_min:1/1/2006,cd_max:12/31/2006">
+                <input type="text" name="q" placeholder="Rechercher..." size="20">
+                <button type="submit">SEARCH!</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="buzz-banner">
+        <marquee scrollamount="6" scrolldelay="60">
+            <img src="icon/warning.png" width="14" height="14" style="vertical-align:middle;"> 
+            NOUVELLES PHOTOS AJOUTÉES DANS L'ALBUM "SOIRÉE D'INTÉGRATION" • ENVOYEZ VOS TOF À GOSSIP@AOL.COM 
+            <img src="icon/warning.png" width="14" height="14" style="vertical-align:middle;">
+        </marquee>
+    </div>
+
+    <div class="container photo-container">
+        
+        <aside class="left-col">
+            <div class="sidebar-header">MENU ALBUMS</div>
+            
+            <div class="sidebar-box">
+                <ul style="list-style: square; padding-left: 20px; margin: 5px 0;">
+                    <li><a href="virus.html">Soirées Chartistes</a></li>
+                    <li><a href="virus.html">Voyages de Promo</a></li>
+                    <li><a href="virus.html">La Cantine</a></li>
+                    <li><a href="virus.html">Dossiers Compromettants</a></li>
+                </ul>
+            </div>
+
+            <div class="secret-zone sidebar-box">
+                <div class="secret-header">
+                    <img src="icon/lock.png" width="14" height="14" style="vertical-align:middle;">
+                    ZONE PRIVÉE
+                </div>
+                <div class="secret-content">
+                    <img src="icon/file.png" width="28" height="30" style="float:left; margin-right:5px; border:1px solid #999; background:white;">
+                    <p style="margin:0; font-size:10px;">Fichiers: <strong>PHOTOS_CENSUREES.zip</strong></p>
+                    <p style="margin:0; font-size:9px; color:red;">Statut: CONFIDENTIEL</p>
+                    <div style="clear:both;"></div>
+                    <a href="virus.html" class="blink-btn" target="_blank">TÉLÉCHARGER</a>
+                </div>
+            </div>
+
+            <div class="sidebar-box class-photo-widget">
+                <div class="sidebar-header small-header">TOP CHART</div>
+                <div style="background:white; padding:5px; border:1px solid #ccc; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+                    <img src="image/promo.jpg" class="photobooth-img" alt="Promo 2006">
+                    <p style="text-align:center; margin:5px 0 0 0; font-family:'Comic Sans MS', cursive; font-size:11px; font-weight:bold; color:#ff0090;">BFF 4 EVER <3</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="feed">
+            
+            <div class="post">
+                <h2 class="post-headline">*~* GALERIE DES PROFS *~*</h2>
+                <p style="text-align:center; font-style:italic; margin-bottom:15px;">
+                    Ils nous notent, mais aujourd'hui... c'est nous qui les notons ! 
+                </p>
+
+                <div class="prof-gallery">
+                    
+                    <div class="prof-card">
+                        <div class="prof-img-container">
+                            <img src="image/delmas.png" alt="Delmas">
+                        </div>
+                        <h3>Bruno Delmas</h3>
+                        <p class="prof-subject">Archivistique contemporaine</p>
+                        <p class="prof-quote">"Oui"</p>
+                        
+                        <div style="border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;">
+                            <div class="static-score">(69 votes)</div>
+                            <input type="checkbox" id="vote-delmas" class="vote-checkbox">
+                            <label for="vote-delmas" class="vote-stars">★★★★★</label>
+                            <div class="vote-msg">Merci d'avoir voté !</div>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-img-container">
+                            <img src="image/charon.png" alt="Parent-Charont">
+                        </div>
+                        <h3>Annie Parent-Charont</h3>
+                        <p class="prof-subject">Histoire du livre</p>
+                        <p class="prof-quote">"haha j'adore lire"</p>
+
+                        <div style="border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;">
+                            <div class="static-score">(18 votes)</div>
+                            <input type="checkbox" id="vote-charon" class="vote-checkbox">
+                            <label for="vote-charon" class="vote-stars">★★★★★</label>
+                            <div class="vote-msg">Merci d'avoir voté !</div>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-img-container">
+                            <img src="image/gauthier.png" alt="Gauthier">
+                        </div>
+                        <h3>Christophe Gauthier</h3>
+                        <p class="prof-subject">Histoire des médias</p>
+                        <p class="prof-quote">"La rumeur dit qu'il écrit les sketchs des Guignols"</p>
+
+                        <div style="border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;">
+                            <div class="static-score">(16 votes)</div>
+                            <input type="checkbox" id="vote-gauthier" class="vote-checkbox">
+                            <label for="vote-gauthier" class="vote-stars">★★★★★</label>
+                            <div class="vote-msg">Merci d'avoir voté !</div>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-img-container">
+                            <img src="image/poncet.png" alt="Poncet">
+                        </div>
+                        <h3>Olivier Poncet</h3>
+                        <p class="prof-subject">Diplomatique</p>
+                        <p class="prof-quote">"Le plus beau document de l’école, sans aucun doute. Grrrr"</p>
+
+                        <div style="border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;">
+                            <div class="static-score">(22 votes)</div>
+                            <input type="checkbox" id="vote-poncet" class="vote-checkbox">
+                            <label for="vote-poncet" class="vote-stars">★★★★★</label>
+                            <div class="vote-msg">Merci d'avoir voté !</div>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-img-container">
+                            <img src="image/smith.png" alt="Smith">
+                        </div>
+                        <h3>Marc Smith</h3>
+                        <p class="prof-subject">Paléo Latine</p>
+                        <p class="prof-quote">"Nunquam te traditurus sum."</p>
+
+                        <div style="border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;">
+                            <div class="static-score">(10 votes)</div>
+                            <input type="checkbox" id="vote-smith" class="vote-checkbox">
+                            <label for="vote-smith" class="vote-stars">★★★★★</label>
+                            <div class="vote-msg">Merci d'avoir voté !</div>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-img-container">
+                            <img src="image/vielliard.png" alt="Vielliard">
+                        </div>
+                        <h3>Françoise Vielliard</h3>
+                        <p class="prof-subject">Philologie romane</p>
+                        <p class="prof-quote">"Son nom est un spoiler sur la fraîcheur du cours."</p>
+
+                        <div style="border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;">
+                            <div class="static-score">(15 votes)</div>
+                            <input type="checkbox" id="vote-vielliard" class="vote-checkbox">
+                            <label for="vote-vielliard" class="vote-stars">★★★★★</label>
+                            <div class="vote-msg">Merci d'avoir voté !</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post">
+                <h2 class="post-headline">>>> TOP 3 POPULAIRES <<<</h2>
+                
+                <div class="ranking-list">
+                    <div class="ranking-item">
+                        <div class="rank-number">#1</div>
+                        <img src="image/delmas.png" class="rank-thumb">
+                        <div class="ranking-details">
+                            <h4>BRUNO DELMAS - "Le MVP"</h4>
+                            <p>Vues : 2500 | Coms : 350 | <span style="color:red; font-weight:bold;">HOT!</span></p>
+                        </div>
+                    </div>
+
+                    <div class="ranking-item">
+                        <div class="rank-number">#2</div>
+                        <img src="image/poncet.png" class="rank-thumb">
+                        <div class="ranking-details">
+                            <h4>Olivier Poncet - "Délis de faciès...trop beau, trop merveilleux"</h4>
+                            <p>Vues : 2200 | Coms : 280</p>
+                        </div>
+                    </div>
+
+                    <div class="ranking-item">
+                        <div class="rank-number">#3</div>
+                        <img src="image/gauthier.png" class="rank-thumb" style="object-position: top;">
+                        <div class="ranking-details">
+                            <h4>Christophe Gauthier - "Pas ouf les bronzés 3"</h4>
+                            <p>Vues : 1800 | Coms : 150</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <aside class="right-col">
+            
+            <div class="sidebar-box" style="background: linear-gradient(135deg, #2a0010 0%, #000000 100%); border: 3px double #ffd700; text-align: center; padding: 10px 5px; position: relative; overflow: hidden;">
+    
+    <div style="font-family: 'Arial Black', sans-serif; color: #ffd700; font-size: 14px; text-transform: uppercase; text-shadow: 0 0 5px #ff0000; margin-bottom: 5px;">
+         ★ VIP ZONE ★ 
+    </div>
+
+    <div style="position: relative; margin-bottom: 10px; border: 1px solid #ffd700;">
+        <img src="image/justin.png" style="width: 100%; display: block; filter: blur(2px);">
+        
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-10deg); background: red; color: white; font-weight: 900; font-family: Impact, sans-serif; font-size: 18px; padding: 2px 10px; border: 2px solid white; box-shadow: 3px 3px 5px black;">
+            CENSORED
+        </div>
+    </div>
+
+    <p style="margin: 0; font-family: 'Verdana', sans-serif; font-weight: bold; font-size: 10px; color: #ff66cc;">
+        CE QUI SE PASSE AU BAL...
+    </p>
+    <p style="margin: 5px 0; font-size: 9px; color: #ccc; font-style: italic;">
+        Des photos compromettantes de l'After au <span style="color:yellow;">Val-de-Grâce</span> ont fuité...
+    </p>
+
+    <ul style="text-align: left; color: white; font-size: 9px; padding-left: 20px; margin: 5px 0;">
+        <li>Bisous volés</li>
+        <li>Chorés gênantes</li>
+        <li>Profs bourrés ?</li>
+    </ul>
+
+    <a href="virus.html" class="blink-btn" style="background: #ffd700 !important; color: #000 !important; border: 2px solid white; font-weight: 900; text-decoration: none; margin-top: 8px;">
+        VOIR SANS CENSURE (18+)
+    </a>
+    
+    <p style="font-size: 8px; color: #666; margin-top: 5px;">*Accord parental souhaitable</p>
+</div>
+
+            <div class="shoutbox sidebar-box">
+                <div class="shoutbox-header">VOS COMS</div>
+                <div class="shoutbox-content">
+                    <p style="margin:2px 0;"><strong>Anon:</strong> cro bel les tofs!</p>
+                    <p style="margin:2px 0;"><strong>Fan2Poncet:</strong> BG :$</p>
+                    <p style="margin:2px 0;"><strong>NotSMITH:</strong> Qui a pris ces photos??</p> 
+                    <p style="margin:2px 0;"><strong>poucav:</strong> Owen crush sur Chaponneau</p>
+                    <p style="margin:2px 0;"><strong>XxXMetafiotxXx:</strong> Allez lire ma critique sur allocine </p>
+                </div>
+                <input type="text" placeholder="Pseudo" class="shout-input">
+                <textarea placeholder="Laisse un com..." class="shout-input"></textarea>
+                <button class="shout-btn">POSTER</button>
+            </div>
+
+            <div class="fake-ad-sms sidebar-box">
+                <h3>
+                    <img src="icon/broken-heart.png" width="16" height="14" style="vertical-align:middle;">
+                    JALOUSIE ?
+                </h3>
+                <p>Ton crush regarde-t-il les photos d'autres chartistes ?</p>
+                <div class="sms-code">ESPION</div>
+                <p>au <strong>8 12 12</strong></p>
+            </div>
+
+        </aside>
+    </div> 
+
+    <footer>
+        COPYRIGHT © 2006-2024 GLAM & GOSSIP INC. <br> 
+        Site parodique réalisé pour l'amour de l'ENC et du drama XOXO
+        <a href="secret.html" style="text-decoration:none; color:transparent; cursor:text; padding-left: 10px;" target="_blank">.</a>
+    </footer>
+</div>
+</body>
+</html>

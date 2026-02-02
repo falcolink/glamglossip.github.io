@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam & Gossip — Le site le plus Chartiste du Web !</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="page-wrapper">
+    <header>
+        <div class="cartoon-char"></div>
+        <div class="top-bar">
+            <div class="logo-area">
+                <div class="welcome-text">Bienvenue sur</div>
+                <h1 class="logo">GLAM & GOSSIP<span class="enc">.ENC</span></h1>
+            </div>
+        </div>
+        <div class="slogan">Galleries, Libraries, Archives & Museums - Digitally Divine, Paleographically Petty</div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="photos.html">Photos</a>
+            <a href="theses.html">Thèses Scandales</a>
+        </div>
+        <div class="search-box">
+            <form action="https://www.google.com/search" method="get">
+                <input type="hidden" name="tbs" value="cdr:1,cd_min:1/1/2006,cd_max:12/31/2006">
+                <input type="text" name="q" placeholder="Rechercher..." size="20">
+                <button type="submit">SEARCH!</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="buzz-banner">
+        <marquee scrollamount="6" scrolldelay="60">
+            <img src="icon/warning.png" width="14" height="14" style="vertical-align:middle;"> 
+            MYSTÈRE : LA MACHINE À CAFÉ KIDNAPPÉE (RANÇON DEMANDÉE SUR MSN) • LOVE ALERT : ILS SE TENAIENT LA MAIN EN SALLE LABROUSTE (ON A LES NOMS !) •  
+            <img src="icon/warning.png" width="14" height="14" style="vertical-align:middle;">
+        </marquee>
+    </div>
+
+    <div class="container">
+        
+        <aside class="left-col" style="display: flex; flex-direction: column;">
+            <div class="sidebar-header">BIENVENUE</div>
+            <div class="intro-text">
+                Bienvenue sur Glam & Gossip - Le seul site où la diplomatique rencontre le drama !
+            </div>
+
+            <div class="winamp-player sidebar-box">
+                <div class="winamp-top">
+                    <div class="winamp-title-left">
+                        <img src="icon/music.png" width="10" height="10" style="vertical-align:middle;"> 
+                        WINAMP
+                    </div>
+                    <div class="winamp-controls-min">_ □ X</div>
+                </div>
+                
+                <div class="winamp-screen">
+                    <div class="song-marquee">
+                        <marquee scrollamount="2" scrolldelay="120">
+                            1. LORIE - JE SERAI (TA MEILLEURE AMIE) *** 2. DIAM'S - LA BOULETTE *** 3. BRITNEY SPEARS - TOXIC
+                        </marquee>
+                    </div>
+                    <div class="winamp-visualizer">
+                        <img src="image/winamp_visu.webp" alt="Visualizer" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="kbps-timer">
+                        <span>128 kbps</span>
+                        <span>02:45</span>
+                    </div>
+                </div>
+
+                <div class="winamp-progress">
+                    <div class="prog-knob"></div>
+                </div>
+
+                <div class="winamp-controls">
+                    <div class="w-btn">|&lt;</div>
+                    <div class="w-btn">&gt;</div>
+                    <div class="w-btn">||</div>
+                    <div class="w-btn">[]</div>
+                    <div class="w-btn">&gt;|</div>
+                </div>
+            </div>
+
+            <div class="top-celebs-widget sidebar-box">
+                <div class="widget-title-img">TOP PROFS</div>
+                <div class="celeb-grid">
+                    <div class="celeb-item">
+                        <img src="image/smith.png" alt="Smith"><div class="celeb-name">SMITH</div>
+                    </div>
+                    <div class="celeb-item">
+                        <img src="image/poncet.png" alt="Poncet"><div class="celeb-name">PONCET</div>
+                    </div>
+                    <div class="celeb-item">
+                        <img src="image/gauthier.png" alt="Gauthier"><div class="celeb-name">GAUTHIER</div>
+                    </div>
+                    <div class="celeb-item">
+                        <img src="image/charon.png" alt="Charon"><div class="celeb-name">CHARON</div>
+                    </div>
+                </div>
+                <a href="photos.html" class="full-width-btn">>> ACCÉDER À LA GALERIE</a>
+            </div>
+
+            <div class="secret-zone sidebar-box">
+                <div class="secret-header">
+                    <img src="icon/lock.png" width="14" height="14" style="vertical-align:middle;">
+                    ZONE PRIVÉE
+                </div>
+                <div class="secret-content">
+                    <img src="icon/file.png" width="28" height="30" style="float:left; margin-right:5px; border:1px solid #999; background:white;">
+                    <p style="margin:0; font-size:10px;">Fichiers: <strong>NOTES_S1_2006.xls</strong></p>
+                    <p style="margin:0; font-size:9px; color:red;">Statut: CONFIDENTIEL</p>
+                    <div style="clear:both;"></div>
+                    <a href="virus.html" class="blink-btn" target="_blank">TÉLÉCHARGER MAINTENANT</a>
+                </div>
+            </div>
+
+            <div class="sidebar-header rotate-neg">ENVOYEZ VOS SCOOPS !</div>
+            <div class="intro-text">
+                Un document mal coté ?<br>
+                Une rumeur à l'ENC ?<br>
+                <a href="#" class="email-link">gossip@aol.com</a>
+            </div>
+
+            <div class="poll-widget sidebar-box">
+                <div class="poll-title">
+                    <img src="icon/poll.png" width="13" height="13" style="vertical-align:middle;">
+                    SONDAGE
+                </div>
+                <input type="checkbox" id="poll-trigger">
+                
+                <div class="poll-vote-form">
+                    <div class="poll-question">Ta pire angoisse ?</div>
+                    <form>
+                        <label><input type="radio" name="fear"> Incunable déchiré</label><br>
+                        <label><input type="radio" name="fear"> L'éponge du foyer</label><br>
+                        <label><input type="radio" name="fear"> Ex à la BNF</label><br>
+                        <label><input type="radio" name="fear"> La gazette chartiste</label><br>
+                        <div class="center-btn">
+                            <label for="poll-trigger" class="poll-btn">Voter !</label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="poll-results">
+                    <div class="poll-question">RÉSULTATS :</div>
+                    <div class="result-line">Incunable déchiré (10%) <div class="poll-bar-container"><div class="poll-bar bar-1"></div></div></div>
+                    <div class="result-line">L'éponge du foyer (5%) <div class="poll-bar-container"><div class="poll-bar bar-2"></div></div></div>
+                    <div class="result-line">Ex à la BNF (80%) <div class="poll-bar-container"><div class="poll-bar bar-3"></div></div></div>
+                    <div class="result-line">La gazette chartiste (5%) <div class="poll-bar-container"><div class="poll-bar bar-4"></div></div></div>
+                    <div class="center-btn"><label for="poll-trigger" class="poll-back">← Retour</label></div>
+                </div>
+            </div>
+
+            <div class="astro-widget y2k-oracle sidebar-box">
+                <div class="y2k-oracle-title">~*~ MYSTIC CHARTES ~*~</div>
+                <div class="y2k-bg-stars">
+                    <div style="text-align:center; margin-bottom:5px;">
+                        <img src="image/oracle_logo.png" style="width:50px; border-radius:50%; border:2px solid white;">
+                    </div>
+                    <p class="pixel-text">Les astres ont parlé...</p>
+
+                    <input type="checkbox" id="oracle-toggle" class="oracle-checkbox">
+
+                    <div class="oracle-state-1">
+                        <div class="fortune-box">
+                            "Attention à la paléographie : un jambage mal lu causera ta perte."
+                        </div>
+                        <label for="oracle-toggle" class="win95-btn">Nouvelle Prédiction</label>
+                    </div>
+
+                    <div class="oracle-state-2">
+                        <div class="fortune-box" style="background: black; color: red; border: 1px dashed red;">
+                            ERREUR 404 : AVENIR FLOU<br>
+                            Revenez demain !
+                        </div>
+                        <label for="oracle-toggle" class="win95-btn">D'accord...</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-box class-photo-widget">
+                <div class="sidebar-header small-header">TOP CHART</div>
+                <div style="background:white; padding:5px; border:1px solid #ccc; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+                    <img src="image/promo.jpg" class="photobooth-img" alt="TOP CHART">
+                    <p style="text-align:center; margin:5px 0 0 0; font-family:'Comic Sans MS', cursive; font-size:11px; font-weight:bold; color:#ff0090;"><3</p>
+                </div>
+            </div>
+            
+            <div class="sidebar-box" style="background: #000; border: 3px dashed #00ff00; text-align: center; color: white; padding: 5px; position: relative;">
+
+                <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-image: linear-gradient(#003300 1px, transparent 1px), linear-gradient(90deg, #003300 1px, transparent 1px); background-size: 10px 10px; z-index: 0; opacity: 0.5;"></div>
+
+                <div style="position: relative; z-index: 1;">
+                    <div style="font-family: Arial, sans-serif; font-weight: bold; font-style: italic; margin-bottom: 5px; color: #ff00ff; text-shadow: 2px 2px 0 #00ffff; font-size: 16px;">
+                        ~* Hello Moto *~
+                    </div>
+
+                    <div style="border: 2px solid white; padding: 2px; background: #fff; margin: 0 auto 10px auto; width: 140px;">
+                        <img src="image/razr.png" alt="Motorola Razr Pink" style="width: 100%; display: block;">
+                    </div>
+
+                    <div style="background: #ff0099; color: yellow; font-family: 'Arial Black'; font-size: 12px; transform: rotate(-2deg); border: 2px solid cyan; padding: 3px; margin-bottom: 10px; box-shadow: 3px 3px 0 #fff;">
+                        LE MUST-HAVE
+                    </div>
+
+                    <div style="text-align: left; font-family: 'Courier New', monospace; font-size: 10px; color: #00ff00; margin-bottom: 10px; background: rgba(0,0,0,0.8); border: 1px dotted #00ff00; padding: 5px;">
+                        <p style="margin:0 0 5px 0; text-decoration: underline; color: white;">[SPECS_V3.TXT]</p>
+                        <ul style="list-style-type: none; padding: 0; margin: 0;">
+                            <li>[+] Ultra-Slim (13.9mm)</li>
+                            <li>[+] Clavier Métal</li>
+                            <li>[+] Bluetooth v1.2</li>
+                            <li>[+] Vidéo (15 sec max!)</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: repeating-linear-gradient(45deg, yellow, yellow 10px, black 10px, black 20px); padding: 5px; border: 2px solid white; margin-bottom: 10px;">
+                        <div style="background: black; color: white; padding: 5px; font-weight: bold; font-size: 10px; border: 1px solid white;">
+                            BONUS : SONNERIE<br>
+                            <span style="color: #ff0099;">>> SEXY BACK <<</span><br>
+                            OFFERTE !
+                        </div>
+                    </div>
+
+                    <a href="virus.html" class="blink-btn" style="background: #00ffff !important; color: black !important; border: 3px outset #fff; font-size: 13px;">
+                        ACHETER (299€)
+                    </a>
+                </div>
+            </div>
+            
+            <div class="blogroll" style="margin-top: auto; padding-top: 50px;">
+                <a href="https://www.chartes.psl.eu/" target="_blank">
+                    <svg width="88" height="31" viewBox="0 0 88 31" fill="none" style="margin-bottom:3px; border:1px solid white;">
+                        <rect width="88" height="31" fill="#990000"/>
+                        <rect x="2" y="2" width="84" height="27" fill="none" stroke="#ffcccc"/>
+                        <text x="44" y="20" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="white" text-anchor="middle">CHARTES.FR</text>
+                    </svg>
+                </a>
+                <a href="https://gallica.bnf.fr/" target="_blank">
+                    <svg width="88" height="31" viewBox="0 0 88 31" fill="none" style="margin-bottom:3px; border:1px solid white;">
+                        <rect width="88" height="31" fill="black"/>
+                        <rect x="0" y="0" width="10" height="31" fill="#FFCC00"/>
+                        <text x="50" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">GALLICA</text>
+                    </svg>
+                </a>
+                <a href="https://skyrock.com/" target="_blank">
+                    <svg width="88" height="31" viewBox="0 0 88 31" fill="none" style="margin-bottom:3px; border:1px solid white;">
+                        <rect width="88" height="31" fill="#0099FF"/>
+                        <text x="44" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Skyblog</text>
+                    </svg>
+                </a>
+            </div>
+        </aside>
+
+        <main class="feed">
+            <div class="breadcrumb">Accueil >> Scoops >> Rumeurs >> Salle Labrouste</div>
+            <div class="post-nav">
+                <a href="#">« BREAKING : Pénurie de crayons à papier HB !</a>
+                <a href="#">Diplomatique : La Cire c'est fini ? »</a>
+            </div>
+
+            <article class="post urgent-post">
+                <h2 class="post-headline red-headline">
+                    <a href="#">SOUVIENS-TOI DE...L’ÉTÉ DERNIER</a>
+                </h2>
+                <div class="img-wrapper">
+                    <img src="image/francois.jpg" style="width:100%; border:2px solid black;">
+                </div>
+                <div class="post-body">
+                    <p><strong>Rumeur : Bibliothèque Richelieu hantée.</strong></p>
+                    <p>La légende raconte que l'été dernier, dans la salle du fer à cheval (tagada), deux étudiants se seraient livrés à une étude <em>très approfondie</em>.</p>
+                    <p class="gossip-quote">
+                        <strong>SPOTTED :</strong> Disons qu'ils ne consultaient pas que le catalogue... XOXO
+                    </p>
+                    <p>Depuis ? Le lieu serait <strong>MAUDIT</strong>. L'esprit de <strong>François Ier</strong> n’aurait pas apprécié ce manque de protocole.</p>
+                    <p>Résultat : Impossible de réviser là-bas sans sentir un courant d'air glacial ou entendre des chuchotements suspects.</p>
+                    <p style="font-size:10px; font-style:italic;">(Ou alors on devient juste fou à cause des partiels...)</p>
+                    <p class="cta-text">Un conseil : Gardez vos distances avec votre binôme, ou gare à la malédiction !</p>
+                </div>
+                <div class="tags-footer">Tags: #Rumeur #Bibliothèque #Horreur</div>
+            </article>
+
+            <article class="post">
+                <h2 class="post-headline"><a href="#">BIG BROTHER ou BIG SISTER? Emmanuelle Bermès nous traque!!!</a></h2>
+                <div class="img-wrapper">
+                    <img src="image/bermes.jpg">
+                </div>
+                <div class="post-body">
+                    <p><strong>OMG… faites attention à ce que vous postez. Big Sister nous lit !</strong></p>
+                    <p>Notre voyante est formelle : <a href="photos.html" class="keyword">Emmanuelle Bermès</a>, promo 2001, veut… ARCHIVER SKYBLOG.</p>
+                    <p><strong>TOUS LES BLOGS.</strong></p>
+                    <p>Oui. Même celui dont vous avez perdu le mdp.</p>
+                    <p class="gossip-quote">Moi? J’espère qu’ils vont garder le mien, je viens tout juste d’apprendre à mettre de la musique dessus…</p>
+                    <p>Par contre chez certains… <em>ringa- euh je veux dire AP</em>, je serais vous, je fermerais tout avant. Trop la honte.</p>
+                    <p class="cta-pink">LAISSEZ VOS COMS ! (Ils seront archivés aussi lol)</p>
+                </div>
+                <div class="tags-footer">Tags: #Skyblog #Web #Ficha</div>
+            </article>
+
+            <article class="post">
+                <h2 class="post-headline"><a href="#">CLASH : Vasseur vs Le Louvre! "Ma chérie, tu sais pas gérer"</a></h2>
+                <div class="img-wrapper">
+                    <img src="image/vasseur.png">
+                </div>
+                <div class="post-body">
+                    <p>On pourrait croire que quand on a une pyramide en verre et des millions de visiteurs, on sait gérer deux ou trois archives. <strong>Eh bien non.</strong></p>
+                    <p><a href="photos.html" class="keyword">Edouard Vasseur</a>, promo 2001 y serait passé PLUSIEURS FOIS pour contrôler. Oui, plusieurs. Parce qu’apparemment, une seule visite ne suffisait pas à faire comprendre le concept de classement.</p>
+                    <p class="gossip-quote">Le détail qui tue ? <strong>UNE SEULE PERSONNE</strong> pour gérer les archives. Une. Personne. On parle bien du Louvre, pas d’une cave municipale.</p>
+                    <p>À un moment, les choses ont été dites. Sans pincettes : <em>« Ma chérie, tu sais pas gérer. »</em> Oups.</p>
+                </div>
+                <div class="tags-footer">Tags: #Louvre, #Vasseur #Clash #Archives</div>
+            </article>
+
+            <article class="post">
+                <h2 class="post-headline"><a href="#">DEBAT : YouTube vs Nouvelle Vague? Gauthier en PLS !</a></h2>
+                
+                <div class="video-player-container" style="position: relative;">
+                    <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" style="text-decoration:none; display:block; width:100%; height:100%;">
+                        <div class="video-title-overlay">ME AT THE ZOO (version chartiste)</div>
+                        <div class="play-btn-fake"></div>
+                        <div class="controls-fake">
+                            <span style="margin-right:10px;">▶</span>
+                            <div class="progress-bar">
+                                <div class="fill"></div>
+                            </div>
+                            <span style="font-size:10px;">0:15 / 3:42</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="post-body">
+                    <p>Ok Ok, je l’avoue :<strong>YouTube, je kiffe.</strong></p>
+                    <p>Des vidéos floues, des chambres en bazar, des gens qui parlent à leur webcam… impossible d’arrêter.</p>
+                    <p>Les puristes crient à la fin du cinéma *tousse* <a href="photos.html" class="keyword">Gauthier</a>*tousse*</p>
+                    <p><em>Pourtant… je crois que c’était ça, la Nouvelle Vague, non ?</em> (Non sérieux, je vous demande, j’ai pas tout suivi, j’ai séché pas mal.)</p>
+                    <p>Bref. Nous ? <strong>On clique !</strong></p>
+                </div>
+                <div class="tags-footer">Tags: #YouTube #Cinéma #Gauthier</div>
+            </article>
+        </main>
+
+        <aside class="right-col">
+            <a href="http://theses.enc.sorbonne.fr/2006" class="advertise-link">Publier une thèse ici</a>
+            
+            <div class="glam-tv-container sidebar-box">
+                <div class="glam-tv-header">
+                    <div class="tv-logo">ARCHIVES <span>TV</span></div>
+                    <div class="tv-tabs"><span>Récents</span><span>Populaires</span></div>
+                </div>
+                <div class="video-list">
+                    <div class="video-item">
+                        <div class="video-thumb">
+                            <div class="flash-error">
+                                <img src="icon/adobe-flash.png" width="30" height="30" style="margin-bottom:5px;">
+                                <div class="flash-msg">Plugin manquant</div>
+                                <div class="flash-link">Télécharger Flash Player</div>
+                            </div>
+                            <span style="position:absolute; bottom:2px; right:2px; background:black; color:white; font-size:9px; padding:1px; z-index:11;">10:04</span>
+                        </div>
+                        <div class="video-meta">
+                            <span class="title">RUMEUR : PSL fait les yeux doux à l'ENC...</span>
+                            <span class="views">99k vues</span>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-thumb">
+                            <div class="flash-error">
+                                <img src="icon/adobe-flash.png" width="30" height="30" style="margin-bottom:5px;">
+                                <div class="flash-msg">Plugin manquant</div>
+                                <div class="flash-link">Télécharger Flash Player</div>
+                            </div>
+                            <span style="position:absolute; bottom:2px; right:2px; background:black; color:white; font-size:9px; padding:1px; z-index:11;">3:30</span>
+                        </div>
+                        <div class="video-meta">
+                            <span class="title">CHOC : ELISE CHARREL REMPORTE LA FRANCE A UN INCROYABLE TALENT</span>
+                            <span class="views">1M vues</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="fake-ad-sms sidebar-box">
+                <h3>
+                    <img src="icon/attention.png" width="16" height="14" style="vertical-align:middle;">
+                    INFIDÉLITÉ ? 
+                    <img src="icon/attention.png" width="16" height="14" style="vertical-align:middle;">
+                </h3>
+                <p>Ton partenaire utilise-t-il<br><strong>JSON</strong><br>dans ton dos ?</p>
+                <p>Pour le savoir, envoie</p>
+                <div class="sms-code">ADEMEC</div>
+                <p>au <strong>71515</strong></p>
+                <p style="font-size:9px; font-weight:normal;">(0,50€ / SMS + coût adhésion ADEMEC)</p>
+            </div>
+
+            <div class="shoutbox sidebar-box">
+                <div class="shoutbox-header">BURN BOOK</div>
+                <div class="shoutbox-content">
+                    <p style="margin:2px 0;"><strong>la-bg-du-cdi:</strong> Preums hehe</p>
+                    <p style="margin:2px 0;"><strong>APHater:</strong> bcp mieux que la gazette chartiste :3</p>
+                    <p style="margin:2px 0;"><strong>Anon:</strong> Qui a les cours de Gauthier svp urgent??</p>
+                    <p style="margin:2px 0;"><strong>Syndicat88:</strong> RDV AG pour interdir de chauffer sa raclette au micro-onde..</p>
+                    <p style="margin:2px 0;"><strong>Anon:</strong>je sais qui est gossip chartiste!!!</p>
+                </div>
+                <input type="text" placeholder="Pseudo" class="shout-input">
+                <textarea placeholder="Message..." class="shout-input"></textarea>
+                <button class="shout-btn">ENVOYER</button>
+            </div>
+        </aside>
+
+    </div> 
+
+    <footer>
+        COPYRIGHT © 2006-2024 GLAM & GOSSIP INC. <br> 
+        Site parodique réalisé pour l'amour de l'ENC et du drama XOXO
+        <a href="secret.html" style="text-decoration:none; color:transparent; cursor:text; padding-left: 10px;" target="_blank">.</a>
+    </footer>
+</div>
+</body>
+</html>
